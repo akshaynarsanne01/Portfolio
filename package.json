@@ -4,6 +4,8 @@
   "description": "PortFolio of my own",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -24,6 +26,10 @@
   },
   "devDependencies": {
     "postcss": "^8.4.32",
+    "process": "^0.11.10",
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
