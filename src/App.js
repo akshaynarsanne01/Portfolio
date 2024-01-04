@@ -5,12 +5,14 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import HeroComponent from "./components/HeroComponent";
+import Skills from "./components/Skills";
 const App = () => {
   return (
     <>
       <Header />
       {/* <Body /> */}
       <HeroComponent />
+      <Skills />
       <Contact />
       <Footer />
     </>

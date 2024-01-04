@@ -18,15 +18,15 @@ const Footer = () => {
       </ul>
       <div className="flex justify-center space-x-6 py-4">
         <img
-          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125"
+          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125 ease-in-out delay-400 duration-100"
           src={LinkedIn}
         />
         <img
-          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125"
+          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125 ease-in-out delay-400 duration-100"
           src={Github}
         />
         <img
-          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125"
+          className=" fill-red-200 cursor-pointer w-6 h-6 hover:scale-125 ease-in-out delay-400 duration-100"
           src={Instagram}
         />
       </div>

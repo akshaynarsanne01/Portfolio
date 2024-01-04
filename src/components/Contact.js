@@ -27,7 +27,9 @@ const Contact = () => {
           className="h-32 bg-[#101d25] border-solid border-2 border-[#dd5522]  text-[#addbb7] font-bold rounded-xl p-2 m-4"
           placeholder="Message"
         />
-        <button className="p-4 m-6 bg-[#dd5522] rounded-2xl">Send</button>
+        <button className="p-4 m-6 bg-[#dd5522] rounded-2xl hover:slide-right_1s_ease-in-out hover:opacity-80">
+          Send
+        </button>
       </div>
     </div>
   );
