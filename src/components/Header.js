@@ -18,10 +18,16 @@ const Header = () => {
             {isOpen ? "Close" : "Menu"}
           </button>
         </div>
-        <ul className="hidden lg:flex space-x-4 >">
-          <li className="hover:cursor-pointer  text-lg">Home</li>
-          <li className="hover:cursor-pointer  text-lg">About</li>
-          <li className="hover:cursor-pointer  text-lg">Contact</li>
+        <ul className="hidden lg:flex space-x-6 >">
+          <li className="hover:cursor-pointer hover:scale-110  text-lg">
+            Home
+          </li>
+          <li className="hover:cursor-pointer hover:scale-110 text-lg">
+            About
+          </li>
+          <li className="hover:cursor-pointer hover:scale-110 text-lg">
+            Contact
+          </li>
         </ul>
       </div>
       {isOpen && (

@@ -4,11 +4,13 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import HeroComponent from "./components/HeroComponent";
 const App = () => {
   return (
     <>
       <Header />
       {/* <Body /> */}
+      <HeroComponent />
       <Contact />
       <Footer />
     </>
